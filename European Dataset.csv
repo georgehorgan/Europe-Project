@@ -1,0 +1,51 @@
+﻿Country Name,EU Membership Status,Euro Currency Users,Population,GDP (Billions)($),Military Spending (Millions)($),External Debt (Billions)($),Net Exports (Millions)($),Quality of life index (mid 2020)
+Andorra,Not a Member,No,77265,3,NaN,NaN,-1178,NaN
+Armenia,Not a Member,No,2969249,11,1385,10,-1128,114.09
+Albania,Candidate,No,2877797,13,250,9,-3123,99.2
+Austria,Member,Yes,9006398,417,3380,631,-6500,181.68
+Azerbaijan,Not a Member,No,10139177,40,2805,17,6956,102.69
+Belarus,Not a Member,No,9449323,54,623,40,-2000,133.52
+Belgium,Member,Yes,11589623,495,4921,1281,3000,149.75
+Bosnia & Herzegovina,Not a Member,No,3280819,18,165,11,-4310,123.05
+Bulgaria,Member,No,6948445,58,1079,42,-4240,127.14
+Croatia,Member,No,4105267,55,800,48,-8810,156.77
+Cyprus,Member,Yes,1207359,22,335,NaN,-4979,146.9
+Czechia,Member,No,10708981,216,2969,205,10000,154.7
+Denmark,Member,No,5792202,330,4760,485,18590,192.53
+Estonia,Member,Yes,1326535,26,685,19,-1290,175.99
+Finland,Member,Yes,5540720,252,3570,151,-2500,186.4
+France,Member,Yes,65273511,2583,41500,5360,-73100,150.68
+Georgia,Not a Member,No,3989167,15,327,17,-4313,116.37
+Germany,Member,Yes,83783942,3693,50000,5326,297000,177.25
+Greece,Member,No,10423054,203,4844,507,-21000,131.51
+Hungary,Member,Yes,9660351,140,2080,138,5440,128.4
+Iceland,Not a Member,No,341243,24,NaN,NaN,-1074,180.74
+Ireland,Member,Yes,4937786,331,870,2470,129070,150.16
+Italy,Member,Yes,60461826,1944,27800,2444,72400,138.97
+Kosovo,Potential Candidate,No,NaN,NaN,NaN,NaN,-2795,NaN
+Latvia,Member,Yes,1886198,30,724,40,-2790,148.68
+Liechtenstein,Not a Member,No,38128,NaN,NaN,NaN,3217,NaN
+Lithuania,Member,Yes,2722289,47,1107,34,-4010,159.77
+Luxembourg,Member,Yes,625978,62,NaN,NaN,-4000,NaN
+Malta ,Member,Yes,441543,12,NaN,NaN,-2564,121.82
+Moldova,Not a Member,No,4033963,8,30,7,-2406,110.53
+Monaco,Not a Member,No,39242,NaN,NaN,NaN,-406,NaN
+Montenegro,Candidate,No,628066,4,65,3,-2196,134.94
+Netherlands,Member,Yes,17134872,831,12419,4063,91000,184.18
+North Macedonia,Candidate,No,2078936,11,108,8,-2170,108.99
+Norway,Not a Member,No,5421241,399,7179,642,22900,174.55
+Poland,Member,No,37846611,526,12000,241,-400,125.2
+Portugal,Member,Yes,10196709,219,3358,449,-11720,162.46
+Romania,Member,No,19237691,212,5050,96,-13200,131.69
+Russia,Not a Member,No,145934462,1578,48000,540,124100,101.57
+San Marino,Not a Member,No,33931,1,NaN,NaN,1276,NaN
+Serbia,Candidate,No,8737371,41,907,30,-4550,116.08
+Slovakia,Member,Yes,5459642,95,2121,75,2610,149.93
+Slovenia,Member,Yes,2078938,48,581,46,1530,169.81
+Spain ,Member,Yes,46754778,1314,15100,2094,-31900,167.05
+Sweden,Member,No,10099265,536,6326,940,14900,172.18
+Switzerland,Not a Member,No,8654622,679,5000,1664,50100,190.92
+Turkey,Candidate,No,84339067,852,19000,452,-39500,126.4
+Ukraine,Not a Member,No,43733762,112,5400,130,-7570,105.26
+United Kingdom,Not a Member,No,67886011,2638,55100,8126,-166000,161.2
+Vatican City,Not a Member,No,NaN,NaN,NaN,NaN,NaN,NaN
