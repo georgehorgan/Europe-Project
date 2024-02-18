@@ -50,7 +50,7 @@ euro = pd.read_csv(r"C:\Users\georg\DataPython\European Dataset.csv")
 euro.head()
 ```
 
-![Import output 1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/05dc324d-00fc-4cab-bb4f-0fc383cfb0d9/Import_output_1.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img1.png)
 
 ### **Clean the data**
 
@@ -105,7 +105,7 @@ check_null = euro[euro.isnull().any(axis = 1)]
 check_null
 ```
 
-![Clean output 9.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1a9727f-35cd-49c6-b0b5-f587460d6cf0/Clean_output_9.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img2.png)
 
 ```python
 euro.set_index("Country Name", inplace = True)
@@ -134,7 +134,7 @@ plt.pie(eu_members, labels = eu_members.index, startangle = 90,
 
 Here we can see that 60.5% are members, whilst only 28% of Europe are not at all.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37285be4-4230-4839-9a75-3f8887c3688b/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img3.png)
 
 What percentage of members are in the monetary union?
 
@@ -158,7 +158,7 @@ plt.pie(euro_users, labels = euro_users.index, startangle = 90,
 
 69% of members in the union are using the Euro as their official currency.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e126c90-e322-4087-8c40-1842bde7f04e/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img4.png)
 
 ```python
 plt.figure(figsize = (10, 5))
@@ -169,7 +169,7 @@ plt.ylabel("Population")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4dabf0f-b36f-4f27-b46b-736c6d0e7307/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img5.png)
 
 Fig [1] - Population of European nations against one another. 
 
@@ -195,7 +195,7 @@ plt.ylabel("GDP in Billions of USD")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2716bff-6057-466d-8461-5432ef59e131/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img6.png)
 
 Fig [2] - GDP in Billions of USD against selected eastern European nations. 
 
@@ -220,7 +220,7 @@ plt.ylabel("Defence Budget in Millions of USD")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04939619-5de9-47c4-8d91-e18cfa1459fe/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img7.png)
 
 Fig [3] - Visualising the difference between GDP and spending on defence against selected eastern European nations.
 
@@ -291,7 +291,7 @@ plt.show()
 
 Fig [4] - GDP in Billions of USD against selected western European nations. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7a8ac48-cddb-4b9b-9269-4ae5361c1898/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img8.png)
 
 ```python
 sns.barplot(x = w_euro.index, y = w_euro["Military Spending (Millions)($)"])
@@ -301,7 +301,7 @@ plt.ylabel("Defence Budget in Millions of USD")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/49dbd4c2-7e1b-42ef-852f-d77233289a19/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img9.png)
 
 Fig [5] - Defence budget in USD against selected western European countries.
 
@@ -332,7 +332,7 @@ plt.ylabel("Percentage of GDP Spent on Defence")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38111c8d-d7ff-4843-ba4a-527b4b22c82f/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img10.png)
 
 Fig [6] - Percentage of GDP spent on defence, EU members vs Non-members
 
@@ -423,7 +423,7 @@ plt.ylabel("External Debt in Billions of USD")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85a89483-ccfe-47d6-9b34-4e1f29f352e8/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img11.png)
 
 Fig [7] - European nations measured on their external debt
 
@@ -571,7 +571,7 @@ plt.ylabel("Quality of Life Index")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31eacbd4-5600-436e-a27a-0889043e2998/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img12.png)
 
 Fig [8] - Quality of life index visualised in order from highest to lowest. 
 
@@ -597,7 +597,7 @@ plt.ylabel("Quality of life Ranking")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bde7cc76-97a1-4d7b-8ef2-d0677e276a0c/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img13.png)
 
 Fig [9] - Quality of life index, EU vs non-EU.
 
@@ -637,7 +637,7 @@ plt.ylabel("Quality of life Ranking")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e6d9a75-d32b-4b6e-abda-4854e8467a6d/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img14.png)
 
 Fig [10] - Quality of life index, western vs eastern Europe. 
 
@@ -649,7 +649,7 @@ df= pd.DataFrame(data= d, index= ["Western Europe", "Eastern Europe"])
 df
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/645cbe4f-130a-4639-88c0-cfa3b2e54c51/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img15.png)
 
 ```python
 plt.pie(df["Mean Quality of Life"], labels= df.index, startangle= 90,
@@ -658,7 +658,7 @@ plt.pie(df["Mean Quality of Life"], labels= df.index, startangle= 90,
 
 Fig [11] - Pie visualisation of the quality of life index
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a858187c-c355-4d21-951c-2da9363621b3/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img16.png)
 
 Creating another dataset to use for further insights.
 
@@ -706,9 +706,9 @@ results = sm.OLS(y, x).fit()
 results.summary()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d4a9e57-3bbc-4110-8d02-0f49bb9dd2e0/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img17.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c430e57b-0883-4f0b-b2cb-18930084ab20/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img18.png)
 
 Predicting nations outside of Europe GDP's based on their military spending and external debt:
 
@@ -732,7 +732,7 @@ EXTERNAL DEBT (Billions)($):
 x.head()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01ef64a9-f91f-45a4-8932-7a8196767b42/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img19.png)
 
 ```python
 compare = pd.DataFrame(
@@ -760,7 +760,7 @@ joined.rename(index = {0: "Japan",
 											 4: "Ivory Coast"})
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4bed850d-0f18-48ee-bebe-cfdc21b5e92e/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img20.png)
 
 ```python
 actual_values = pd.DataFrame({"Actual GDP (Billions)($)": [4872, 1647, 1323, 637, 37]})
@@ -772,7 +772,7 @@ joined.rename(index = {0: "Japan",
 											 4: "Ivory Coast"})
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1e046d4-abe5-4af1-804c-a0c379aadea1/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img21.png)
 
 ```python
 y = europe["Quality of life index (mid 2020)"]
@@ -782,9 +782,9 @@ results = sm.OLS(y, x).fit()
 results.summary()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa116112-cdd8-4e50-adc0-10d0b035e554/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img22.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff797e44-00db-4bb7-ae8b-45812f423d01/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img23.png)
 
 ```python
 europe["GDP per Capita ($)"] = europe["GDP (Billions)($)"] / europe["Population"]
@@ -810,7 +810,7 @@ plt.ylabel("Quality of life index (mid 2020)")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09795cc5-1739-487e-8980-6dbda68198d2/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img24.png)
 
 ### K-Means Clustering
 
@@ -821,13 +821,13 @@ plt.ylabel("Defence Budget in Millions of USD")
 plt.show()
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ba7b1c73-d3df-4165-bc64-d00bc013b56f/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img25.png)
 
 ```python
 data = europe[["GDP per Capita ($)", "Military Spending (Millions)($)"]]
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca3b176e-402d-4703-ab2a-aea7e55ee10c/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img26.png)
 
 ```python
 from sklearn.cluster import KMeans
@@ -844,7 +844,7 @@ plt.xlabel("GDP per Capita in USD")
 plt.ylabel("Defence Budget in Millions of USD")
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/510a0310-4831-474b-bf20-3d9d50f8b51b/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img27.png)
 
 ```python
 from sklearn import preprocessing
@@ -867,7 +867,7 @@ plt.xlabel("Number of clusters")
 plt.ylabel("WCSS value")
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c50dc2a-e0d2-42ac-a864-6ebc3239979b/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img28.png)
 
 To find the optimal number of clusters, we use the elbow method in which we find the Within-Cluster-Sum-of-Squares value (WCSS) which tells you the distance between data points and their centroids, a centroid is essentially the centre of gravity between a group of points and all the points will gather to their closest centroid. We create a plot of the WCSS value against the number of clusters we can use. If there is a sharp bend in the resultant graph, this tells us that it's corresponding x value is the optimal number of clusters to use.
 
@@ -882,7 +882,7 @@ plt.xlabel("GDP per Capita")
 plt.ylabel("Military Spending in Millions of USD")
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c0d6a3c-fe08-4c1d-96d5-61ae0d8352b3/Untitled.png)
+![](https://github.com/georgehorgan/Europe-Project/blob/main/images/europe_img29.png)
 
 We can identify these clusters into three groups.
 Poorer nations who don’t spend big (bottom right), richer nations who don’t spend big (bottom left) and the big economies who do spend big (top centre).
